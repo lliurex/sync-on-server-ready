@@ -1,0 +1,17 @@
+Source: sync-on-server-ready
+Section: admin
+Priority: optional
+Maintainer: LliureX Team <lliurex@gva.es>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Homepage: https://lliurex.net
+#Vcs-Browser: https://salsa.debian.org/debian/sync-on-server-ready
+#Vcs-Git: https://salsa.debian.org/debian/sync-on-server-ready.git
+Rules-Requires-Root: no
+
+Package: sync-on-server-ready
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Sync services when server is reachable 
+ Execute all scripts in folder when the computer named "server" response to 
+ n4d port 
