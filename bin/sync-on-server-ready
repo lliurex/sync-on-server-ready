@@ -1,0 +1,16 @@
+#!/bin/bash
+systemd-notify --status="waiting server"
+
+while : ; do
+	rc="$(ncat --verbose --wait 2 --send-only server 9779 </dev/null 2>/dev/null && echo 0 || echo 1)"
+	if [ "$rc" = "0" ] ; then
+		systemd-notify --ready --status="pre-actions"
+		run-parts /usr/share/sync-on-server-ready/actions/ --args ready
+		systemd-notify --status="post-actions"
+		break
+	fi
+	sleep 5
+done
+
+sleep infinity
+
