@@ -1,3 +1,4 @@
 bin/* /usr/bin
 service/* /usr/lib/systemd/system
 dispatcher/* /usr/lib/NetworkManager/dispatcher.d
+actions/* /usr/share/sync-on-server-ready/actions
