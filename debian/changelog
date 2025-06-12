@@ -1,3 +1,9 @@
+sync-on-server-ready (0.3.2) jammy; urgency=medium
+
+  * Fix minor bugs with action
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 12 Jun 2025 13:23:09 +0200
+
 sync-on-server-ready (0.3.1) jammy; urgency=medium
 
   * Install actions
