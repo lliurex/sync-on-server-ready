@@ -4,3 +4,4 @@ Description=Sync services when server name is reachable
 [Service]
 Type=notify
 ExecStart=/usr/bin/sync-on-server-ready
+TimeoutStartSec=0
