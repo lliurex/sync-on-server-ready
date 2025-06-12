@@ -1,3 +1,9 @@
+sync-on-server-ready (0.3.3) jammy; urgency=medium
+
+  * Add version dependency with n4d and python3-n4d-client
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 12 Jun 2025 14:00:43 +0200
+
 sync-on-server-ready (0.3.2) jammy; urgency=medium
 
   * Fix minor bugs with action
