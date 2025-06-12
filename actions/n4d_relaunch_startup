@@ -5,10 +5,11 @@ from n4d.client import Client
 key_file = Path("/etc/n4d/key")
 
 if not key_file.exists():
-    return 
+    import sys
+    sys.exit(0)
 
 with key_file.open('r') as fd:
-    key = key_file.readline().strip()
+    key = fd.readline().strip()
 
 c = Client(key=key)
 c.startup_on_demand("NATFREE_STARTUP",True)
