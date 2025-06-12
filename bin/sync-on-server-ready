@@ -6,7 +6,7 @@ while : ; do
 	rc="$(ncat --verbose --wait 2 --send-only server 9779 </dev/null 2>/dev/null && echo 0 || echo 1)"
 	if [ "$rc" = "0" ] ; then
 		systemd-notify --ready --status="pre-actions"
-		run-parts ${ACTIONS_DIR}/ --args ready
+		run-parts ${ACTIONS_DIR}/ --arg=ready
 		systemd-notify --status="post-actions"
 		break
 	fi
