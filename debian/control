@@ -11,7 +11,7 @@ Rules-Requires-Root: no
 
 Package: sync-on-server-ready
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ncat
 Description: Sync services when server is reachable 
  Execute all scripts in folder when the computer named "server" response to 
  n4d port 
