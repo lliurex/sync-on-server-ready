@@ -1,3 +1,9 @@
+sync-on-server-ready (0.13.3) noble; urgency=medium
+
+  * Initial release for noble
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 08 Oct 2025 16:42:42 +0200
+
 sync-on-server-ready (0.3.3) jammy; urgency=medium
 
   * Add version dependency with n4d and python3-n4d-client
