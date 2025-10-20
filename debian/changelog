@@ -1,3 +1,9 @@
+sync-on-server-ready (0.3.5) jammy-testing; urgency=medium
+
+  * dummy upgrade 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 20 Oct 2025 13:23:36 +0200
+
 sync-on-server-ready (0.3.3) jammy; urgency=medium
 
   * Add version dependency with n4d and python3-n4d-client
