@@ -1,3 +1,9 @@
+sync-on-server-ready (0.13.4) noble; urgency=medium
+
+  * Added versioned dependency 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 20 Oct 2025 11:57:05 +0200
+
 sync-on-server-ready (0.13.3) noble; urgency=medium
 
   * Initial release for noble
