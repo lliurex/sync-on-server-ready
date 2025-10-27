@@ -2,9 +2,9 @@
 
 case $NM_DISPATCHER_ACTION in 
 	up)
-		systemctl start sync-on-server-ready.service
+		systemctl start sync-on-server-ready.service &
 	;;
 	down)
-		systemctl stop sync-on-server-ready.service
+		systemctl stop sync-on-server-ready.service &
 	;;
 esac
