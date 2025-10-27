@@ -1,3 +1,9 @@
+sync-on-server-ready (0.13.5) noble; urgency=medium
+
+  * Launch service in background
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 27 Oct 2025 19:39:23 +0100
+
 sync-on-server-ready (0.13.4) noble; urgency=medium
 
   * Added versioned dependency 
