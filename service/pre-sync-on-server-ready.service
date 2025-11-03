@@ -1,0 +1,9 @@
+[Unit]
+Description=Trigger Sync on server ready service
+BindsTo=sync-on-server-ready.service
+PropagateStopTo=sync-on-server-ready.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/true
+RemainAfterExit=true
