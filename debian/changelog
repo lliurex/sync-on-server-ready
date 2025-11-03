@@ -1,3 +1,9 @@
+sync-on-server-ready (0.3.5) jammy; urgency=medium
+
+  * Install trigger for start sync-on-server-ready
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 03 Nov 2025 19:12:11 +0100
+
 sync-on-server-ready (0.3.4) jammy; urgency=medium
 
   * Launch service in background 

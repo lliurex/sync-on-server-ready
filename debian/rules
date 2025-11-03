@@ -22,5 +22,4 @@
 #	dh_auto_configure -- \
 #	-DCMAKE_LIBRARY_PATH=$(DEB_HOST_MULTIARCH)
 override_dh_installsystemd:
-	dh_installsystemd --no-start -r --no-restart-after-upgrade --no-enable pre-sync-on-server-ready.service
 	dh_installsystemd --no-start -r --no-restart-after-upgrade --no-enable sync-on-server-ready.service
