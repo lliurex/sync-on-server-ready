@@ -5,3 +5,6 @@ Description=Sync services when server name is reachable
 Type=notify
 ExecStart=/usr/bin/sync-on-server-ready
 TimeoutStartSec=0
+
+[Install]
+WantedBy=pre-sync-on-server-ready.service
