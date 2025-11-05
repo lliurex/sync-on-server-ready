@@ -1,3 +1,9 @@
+sync-on-server-ready (0.15) noble; urgency=medium
+
+  * stop sync-on-server-ready service when stop pre-sync-on-server-ready
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 05 Nov 2025 18:48:55 +0100
+
 sync-on-server-ready (0.14) noble; urgency=medium
 
   * trigger sync-on-server-ready without background syntax
