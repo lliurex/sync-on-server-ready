@@ -1,3 +1,9 @@
+sync-on-server-ready (0.3.7) jammy; urgency=medium
+
+  * Remove old systemd service 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 14 Nov 2025 13:46:15 +0100
+
 sync-on-server-ready (0.3.6) jammy; urgency=medium
 
   * Stop sync-on-server-ready when stop pre-sync-on-server-ready service 
